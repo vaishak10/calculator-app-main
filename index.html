@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+<body>
+
+  <div class="calculator">
+    
+    <div class="calculator-heading">
+      <h1>calc</h1>
+      <div class="theme-setter">
+         <div class="label-level">
+            <label>1</label>
+            <label>2</label>
+            <label>3</label>
+         </div>
+         <div class="slider-level">
+             <label class="theme-label">THEME</label>
+             <input type="range" min="0" max="2" class="slider"  onClick="chooseSlide()"/>
+         </div>
+      </div>
+    </div>
+
+    <div class="calculator-screen">
+         <p class="result"></p>
+    </div>
+
+    <div class="calculator-body">
+       <div class="button-row one">
+          <input type="button" value="7" name="7">
+          <input type="button" value="8" name="8">
+          <input type="button" value="9" name="9">
+          <input type="button" value="DEL" name="del" class="del">
+       </div>
+       <div class="button-row two">
+          <input type="button" value="4" name="4">
+          <input type="button" value="5" name="5">
+          <input type="button" value="6" name="6">
+          <input type="button" value="+" name="add">
+       </div>
+       <div class="button-row three">
+          <input type="button" value="1" name="1">
+          <input type="button" value="2" name="2">
+          <input type="button" value="3" name="3">
+          <input type="button" value="-" name="sub">
+       </div>
+       <div class="button-row four">
+          <input type="button" value="." name="dot">
+          <input type="button" value="0" name="0">
+          <input type="button" value="/" name="div">
+          <input type="button" value="*" name="mul">
+       </div>
+       <div class="button-row five">
+          <input type="button" value="RESET" name="reset" class="reset">
+          <input type="button" value="=" name="equal" class="equal">
+          <input type="button" value="√" name="sqrt">
+       </div>
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Coded by <a href="https://github.com/vaishak10">Vaishak K</a>.
+  </div>
+</body>
+</html>

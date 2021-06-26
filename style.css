@@ -1,0 +1,103 @@
+body{
+    background-color:hsl(222, 26%, 31%);
+    font-family: 'Spartan', sans-serif;
+}
+h1{
+    margin: 0px;
+    color:#fff;
+    margin-top: 4px;
+}
+label{
+    color:#fff;
+}
+input[type=button]{
+    font-family: 'Spartan', sans-serif;
+    background-color:hsl(30, 25%, 89%);
+    border-color: transparent;
+    box-shadow:0px 3px hsl(32, 16%, 65%);
+    height:40px;
+    width:74px;
+    border-radius:8px;
+}
+.calculator{
+    display:grid;
+    justify-content:center;
+    row-gap:20px;
+    margin-top:50px;
+}
+.calculator-screen{
+    background-color:hsl(268, 71%, 12%);
+    height:80px;
+    width:400px;
+    border-radius:10px;
+}
+.calculator-heading{
+    display:grid;
+    grid-template-columns: 5fr 1.8fr;
+
+}
+.calculator-body{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr qfr 0.6fr;
+    justify-content:center;
+    background-color:hsl(268, 75%, 9%);
+    border-radius:10px;
+    height:300px;
+    width:400px;
+    padding-top:20px;
+}
+.button-row{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:20px;
+}
+.button-row.five{
+    display:grid;
+    grid-template-columns: 1fr 1fr 0.6fr;
+}
+.reset,
+.equal{
+    grid-column: 1 / span 1.5 ;
+    width:120px !important;
+}
+.del,
+.reset{
+    background-color:hsl(285, 91%, 52%) !important;
+    box-shadow: 0px 3px hsl(281deg 89% 26%) !important;
+    color:#fff;
+}
+.equal{
+    background-color:hsl(6, 63%, 50%) !important;
+    box-shadow: 0px 3px hsl(6, 70%, 34%) !important;
+    color:#fff;
+}
+.theme-setter{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    font-size:10px;
+}
+.label-level{
+    display:grid;
+    grid-template-columns:0.2fr 0.2fr 0.2fr;
+    justify-content:end;
+    margin-left:20px;
+}
+.slider-level{
+    display:grid;
+    grid-template-columns:0.8fr 1fr;
+}
+.slider{
+    width:50px;
+}
+.theme-label{
+    margin-top:4px;
+}
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    margin-top: 50px;
+
+}
+.attribution a { 
+    color: hsl(6, 63%, 50%); 
+}
