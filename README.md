@@ -15,7 +15,7 @@
 
   - [Screenshots](#screenshots)
     
-    ![desktop version1](https://github.com/vaishak10/calculator-app-main/blob/main/theme1_desktopVersion.jpg?raw=true)
+    ![desktop version1](https://github.com/vaishak10/calculator-app-main/blob/master/DevelopedCalcSnaps/theme1_desktopVersion.JPG)
 
     For screenshots refer the *** DevelopedCalcSnaps *** folder.
 
