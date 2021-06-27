@@ -5,7 +5,7 @@
 - [Overview](#overview)
     A simple Calculator which performs basic mathematical operations (addition, subtraction , multication, division).
     
-    One additional feature added to this is to get square root of a number and also get square root of a number in 
+    One additional feature added to this is to get square root of a number individually and also get square root of a number in 
     mathematical expressions.
 
     DEL button in this calculator is just to erase the previous values .To clear the entire expression it's preffered to 
@@ -33,16 +33,16 @@
 
   - [Built with](#built-with)
 
-    UI is built on a responsive using HTML , CSS styles and CSS grids, DOM.
+    UI is built in a responsive way using HTML , CSS styles and CSS grids, DOM.
     Controllers carrying out logical operations have been developed using vanilla javascript.
 
   - [What I learned](#what-i-learned)
 
-    Building this Calculator was all about learning many concepts I was never familiar about and all also implementing some of the features I had come across in past few months.
+    Building this Calculator was all about learning many concepts I was never familiar about and also implementing some of the features I had come across in past few months.
 
     The best part about developing this was writing more efficient and modular pieces of code ,and another one being the need to create responsive applications.
 
-    From DOM manipulations ,To writing functions whhich can be re-used n number of times . From making use of CSS grids for reponsive interface to changing themes on the basis of a click and much more. A good learning experience.
+    From DOM manipulations ,To writing functions which can be re-used n number of times . From making use of CSS grids for reponsive interface to changing themes on the basis of a click and much more. A good learning experience.
     
   - [Continued development](#continued-development)
 
@@ -60,7 +60,7 @@
     For more detailed explanations on CSS properties refer ,
     3. https://developer.mozilla.org/en-US/docs/Web/css
 
-    Whenever i was stuck with a approach , found more insights and shortcuts from , 
+    Whenever I was stuck with a approach , found more insights and shortcuts from , 
     4. https://stackoverflow.com/questions
 
 - [Author](#author)
