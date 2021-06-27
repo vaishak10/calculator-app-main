@@ -1,94 +1,76 @@
-# Frontend Mentor - Calculator app
+# Calculator app solution
 
-![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
+## Table of contents
 
-## Welcome! 👋
+- [Overview](#overview)
+    A simple Calculator which performs basic mathematical operations (addition, subtraction , multication, division).
+    
+    One additional feature added to this is to get square root of a number and also get square root of a number in 
+    mathematical expressions.
 
-Thanks for checking out this front-end coding challenge.
+    DEL button in this calculator is just to erase the previous values .To clear the entire expression it's preffered to 
+    click on the RESET button.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+    The Keypad is operated by click events , so the user has to click on the buttons on keypad to use the functions of this Calculator. Keyboard events not yet supported.
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+  - [Screenshots](#screenshots)
+    
+    ![desktop version1](https://github.com/vaishak10/calculator-app-main/blob/main/theme1_desktopVersion.jpg?raw=true)
 
-## The challenge
+    For screenshots refer the *** DevelopedCalcSnaps *** folder.
 
-Your challenge is to build out this calculator app and get it looking as close to the design as possible.
+  - [Links](#links)
+     
+    Get acces to the calculator using the link : https://vaishak10.github.io/calculator-app-main/
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+    Solve those expressions and open for any suggestions or features to be added.
 
-Your users should be able to:
+- [My process](#my-process)
 
-- See the size of the elements adjust based on their device's screen size
-- Perform mathematical operations like addition, subtraction, multiplication, and division
-- Adjust the color theme based on their preference
-- **Bonus**: Have their initial theme preference checked using `prefers-color-scheme` and have any additional changes saved in the browser
+    In the process of making this calculator ,I have made sure the code is not repeated in the javascript file for setting styles for each of the theme's.
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+    For the Calculations part, Made sure the string expression has been evaluated using  window.Function() instead of eval(). Read in some documentations that eval() has some security issues. For more detailed information about this, read the mdn documentation (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval).
 
-## Where to find everything
+  - [Built with](#built-with)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+    UI is built on a responsive using HTML , CSS styles and CSS grids, DOM.
+    Controllers carrying out logical operations have been developed using vanilla javascript.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+  - [What I learned](#what-i-learned)
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+    Building this Calculator was all about learning many concepts I was never familiar about and all also implementing some of the features I had come across in past few months.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+    The best part about developing this was writing more efficient and modular pieces of code ,and another one being the need to create responsive applications.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+    From DOM manipulations ,To writing functions whhich can be re-used n number of times . From making use of CSS grids for reponsive interface to changing themes on the basis of a click and much more. A good learning experience.
+    
+  - [Continued development](#continued-development)
 
-## Building your project
+    I do want to add more features in this Calculator, make it bit like a scientific calculator with features to make complex mathematical operations.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+    Currently this calculator works on click event i.e., we need to click on the buttons on the keypad using mouse . Want to make sure that along with this feature ,can add keyboard events such that user can operate the keypad from the comfort of the user's keyboard.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+  - [Useful resources](#useful-resources)
+    
+    The resources are never ending, but i have listed some of the most used resources during the course of developing this calculator.
+     
+    1. https://developer.mozilla.org/en-US/docs/Web/JavaScript ---> Most of the Javascript doubts and insights were from this documentation.
+    2. https://www.w3schools.com/cssref/default.asp  ---> Best sites for clearing all doubts with respect to CSS, 
+     
+    For more detailed explanations on CSS properties refer ,
+    3. https://developer.mozilla.org/en-US/docs/Web/css
 
-## Deploying your project
+    Whenever i was stuck with a approach , found more insights and shortcuts from , 
+    4. https://stackoverflow.com/questions
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+- [Author](#author)
+   
+   Vaishak.K 
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+   GitHub: https://github.com/vaishak10
+   Twitter: https://twitter.com/noob_devv
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- [Acknowledgments](#acknowledgments)
+   
+   This Calculator is a part of challenge by https://www.frontendmentor.io/challenges .They provide alot of challenges 
+   (from developing simple templates to developing dynamic web applications) which enchances a individuals project developing skills ,which is a must as one needs to build more and more projects to be a good Developer.

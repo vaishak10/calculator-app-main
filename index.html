@@ -25,7 +25,7 @@
          </div>
          <div class="slider-level">
              <label class="theme-label">THEME</label>
-             <input type="range" min="0" max="2" class="slider"  onClick="chooseSlide()"/>
+             <input type="range" min="0" max="2" value="0" class="slider" onClick="chooseSlide()"/>
          </div>
       </div>
     </div>
@@ -36,33 +36,33 @@
 
     <div class="calculator-body">
        <div class="button-row one">
-          <input type="button" value="7" name="7">
-          <input type="button" value="8" name="8">
-          <input type="button" value="9" name="9">
-          <input type="button" value="DEL" name="del" class="del">
+          <input type="button" value="7" name="7" onClick="displayKeys(7)">
+          <input type="button" value="8" name="8" onClick="displayKeys(8)">
+          <input type="button" value="9" name="9" onClick="displayKeys(9)">
+          <input type="button" value="DEL" name="del" class="del" onClick="deleteKey()">
        </div>
        <div class="button-row two">
-          <input type="button" value="4" name="4">
-          <input type="button" value="5" name="5">
-          <input type="button" value="6" name="6">
-          <input type="button" value="+" name="add">
+          <input type="button" value="4" name="4" onClick="displayKeys(4)">
+          <input type="button" value="5" name="5" onClick="displayKeys(5)">
+          <input type="button" value="6" name="6" onClick="displayKeys(6)">
+          <input type="button" value="+" name="add" onClick="displayKeys('+')">
        </div>
        <div class="button-row three">
-          <input type="button" value="1" name="1">
-          <input type="button" value="2" name="2">
-          <input type="button" value="3" name="3">
-          <input type="button" value="-" name="sub">
+          <input type="button" value="1" name="1" onClick="displayKeys(1)">
+          <input type="button" value="2" name="2" onClick="displayKeys(2)">
+          <input type="button" value="3" name="3" onClick="displayKeys(3)">
+          <input type="button" value="-" name="sub" onClick="displayKeys('-')">
        </div>
        <div class="button-row four">
-          <input type="button" value="." name="dot">
-          <input type="button" value="0" name="0">
-          <input type="button" value="/" name="div">
-          <input type="button" value="*" name="mul">
+          <input type="button" value="." name="dot" onClick="displayKeys('.')">
+          <input type="button" value="0" name="0" onClick="displayKeys(0)">
+          <input type="button" value="/" name="div" onClick="displayKeys('/')">
+          <input type="button" value="*" name="mul" onClick="displayKeys('*')">
        </div>
        <div class="button-row five">
-          <input type="button" value="RESET" name="reset" class="reset">
-          <input type="button" value="=" name="equal" class="equal">
-          <input type="button" value="√" name="sqrt">
+          <input type="button" value="RESET" name="reset" class="reset" onClick="resetKeys()">
+          <input type="button" value="=" name="equal" class="equal" onClick="getResult()">
+          <input type="button" value="√" name="sqrt" onClick="displayKeys('√')">
        </div>
     </div>
 
