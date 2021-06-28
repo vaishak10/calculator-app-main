@@ -11,7 +11,7 @@
     DEL button in this calculator is just to erase the previous values .To clear the entire expression it's preffered to 
     click on the RESET button.
 
-    The Keypad is operated by click events , so the user has to click on the buttons on keypad to use the functions of this Calculator. Keyboard events not yet supported.
+    The Keypad is operated by click events as well as Keyboard events. Butkeyboard events have some changes with respect to buttons which will be explained in the note section in the UI.
 
   - [Screenshots](#screenshots)
     
@@ -49,6 +49,10 @@
     I do want to add more features in this Calculator, make it bit like a scientific calculator with features to make complex mathematical operations.
 
     Currently this calculator works on click event i.e., we need to click on the buttons on the keypad using mouse . Want to make sure that along with this feature ,can add keyboard events such that user can operate the keypad from the comfort of the user's keyboard.
+   
+   *** Update on keyboard events ***
+    
+    The keyboard events feature has been introduced , but there have been some minor changes on which buttons to be used. Refer the note section of the UI which is placed below the calculator. 
 
   - [Useful resources](#useful-resources)
     

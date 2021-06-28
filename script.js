@@ -16,6 +16,7 @@ function applythemeCss(bodyCss, inputCss, screenCss, keypadCss, cssDelReset, equ
     document.querySelector("body > div.calculator > div.calculator-body > div.button-row.five > input.reset").style.cssText = cssDelReset;
     document.querySelector("body > div.calculator > div.calculator-body > div.button-row.five > input.equal").style.cssText = equalCss;
     document.querySelector("body > div.calculator > div.calculator-heading > div > div.slider-level > input").style.cssText = toggleCss;
+    document.querySelector("body > div.calculator > div.calculator-keyboard-rules").style.cssText = keypadCss;
 }
 
 function chooseSlide() {
@@ -52,6 +53,27 @@ function chooseSlide() {
         applythemeCss(bodyCss, inputCss, screenCss, keypadCss, cssDelReset, equalCss, toggleCss);
     } else {
         console.log("Theme doesn't exists");
+    }
+}
+
+function keyPress(event)
+{
+    let regex = /[0-9]|[.,+-/*]/;
+    // used , as an alternate for √ which is not available the keyboard i was working on.
+    if(regex.test(event.key)){
+        if(event.key === ','){
+            displayKeys('√');
+        } else {
+            displayKeys(event.key);
+        }
+    } else if (event.key === "Backspace"){
+        deleteKey();
+    }else if (event.key === "Delete"){
+        resetKeys();
+    } else if (event.key === "=" || event.key === "Enter"){
+        getResult();
+    } else {
+        console.log("Not a part of calc keypad");
     }
 }
 

@@ -5,6 +5,11 @@ h1{
     margin: 0px;
     margin-top: 4px;
 }
+h3{
+   margin: 0px; 
+   margin-top: 20px;
+}
+
 input[type=button]{
     font-family: 'Spartan', sans-serif;
     font-size: 16px;
@@ -74,6 +79,7 @@ input[type=range]{
     grid-template-columns:0.2fr 0.2fr 0.2fr;
     justify-content:end;
     margin-left:18px;
+    margin-top: 4;
 }
 .slider-level{
     display:grid;
@@ -96,6 +102,13 @@ input[type=range]::-webkit-slider-thumb{
      border-radius: 50%;
      background-color: hsl(6, 63%, 50%);
     -webkit-appearance: none;
+}
+.calculator-keyboard-rules{
+    display:grid;
+    justify-content:center;
+    text-align:center;
+    margin-top:20px;
+    border-radius:8px;
 }
 .attribution { 
     font-size: 12px; 
